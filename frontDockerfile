@@ -1,4 +1,0 @@
-FROM nginx:alpine
-# 빌드된 HTML 파일을 nginx의 기본 경로로 복사
-COPY index.html /usr/share/nginx/html/
-EXPOSE 80
